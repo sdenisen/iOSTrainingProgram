@@ -1,4 +1,4 @@
-package com.company.linked_list.objects;
+package com.company.linkedList.objects;
 
 public class IntegerNode extends Node {
     private int value;

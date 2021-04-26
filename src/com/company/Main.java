@@ -1,19 +1,19 @@
 package com.company;
-import com.company.doubleSort.ArrayActions;
-import com.company.linked_list.objects.IntegerNode;
-import com.company.linked_list.LinkedList;
-import com.company.linked_list.objects.StringNode;
+import com.company.doubleSort.ArrayAction;
+import com.company.linkedList.objects.IntegerNode;
+import com.company.linkedList.LinkedList;
+import com.company.linkedList.objects.StringNode;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println("************\nSorting by two object attributes;\n************");
         System.out.println("************\nGenerate random array;\n************");
-        var init_data_array = ArrayActions.generateArray();
+        var init_data_array = ArrayAction.generateArray();
         init_data_array.forEach(System.out::println);
 
         System.out.println("************\nSort the array;\n************");
-        var sorted_array = ArrayActions.doubleSortOfArray(init_data_array);
+        var sorted_array = ArrayAction.doubleSortOfArray(init_data_array);
         sorted_array.forEach(System.out::println);
 
         System.out.println("************\nLinked List that can use different object types;\n************");

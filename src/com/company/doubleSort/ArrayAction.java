@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ArrayActions {
+public class ArrayAction {
 
     public static List<Data> doubleSortOfArray(List<Data> r){
         Comparator<Data> comparator = Comparator.comparing(Data::getNumber);
@@ -17,7 +17,7 @@ public class ArrayActions {
     }
 
     public static List<Data> generateArray(){
-        char[] alphabet = "abc".toCharArray();
+        char[] alphabet = "abc".toCharArray(); //
         var r = new ArrayList<Data>();
         for(int i=0; i<3; i++){
             for (int j=0; j<3; j++){

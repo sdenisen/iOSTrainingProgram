@@ -1,5 +1,5 @@
-package com.company.linked_list;
-import com.company.linked_list.objects.Node;
+package com.company.linkedList;
+import com.company.linkedList.objects.Node;
 
 public class LinkedList {
     private Node head;

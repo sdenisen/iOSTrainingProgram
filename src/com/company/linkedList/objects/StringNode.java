@@ -1,4 +1,4 @@
-package com.company.linked_list.objects;
+package com.company.linkedList.objects;
 
 public class StringNode extends Node {
     private String value;
