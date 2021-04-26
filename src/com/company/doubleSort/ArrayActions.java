@@ -17,10 +17,10 @@ public class ArrayActions {
     }
 
     public static List<Data> generateArray(){
-        char[] alphabet = "abcde".toCharArray();
+        char[] alphabet = "abc".toCharArray();
         var r = new ArrayList<Data>();
-        for(int i=0; i<5; i++){
-            for (int j=0; j<5; j++){
+        for(int i=0; i<3; i++){
+            for (int j=0; j<3; j++){
                 r.add(new Data(i, String.valueOf(alphabet[j])) );
             }
         }
